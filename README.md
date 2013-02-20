@@ -9,7 +9,10 @@ You can even host full sites using .html files. Or full directories, or whatever
 
 This can also be accomplished using public folders on Dropbox, but this solution is transparent for the user.
 
-Requirements:
+## Installation ##
+Just upload it to the directory where you want your files to be served and follow the instructions on the setup.
+
+## Requirements ##
 - PHP 5.3
 - Curl
 - Apache
