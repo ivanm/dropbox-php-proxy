@@ -1,7 +1,7 @@
 dropbox-php-proxy
 ==================
 
-This little tool allow you to serve files directly from your Dropbox account (or a subdirectory of it) to your PHP server. 
+This little tool allows you to serve files directly from your Dropbox account (or a subdirectory of it) to your PHP server. 
 
 For example, you can have a file in your dropbox named 'profile.jpg' that is linked directly to your page at mycoolwebsite.com/images/profile.jpg. To change it you only need to sync the file on your computer. That's it.
 
