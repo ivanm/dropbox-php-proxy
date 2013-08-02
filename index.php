@@ -86,7 +86,7 @@ if (!file_exists ('config.php')){
     header('HTTP/1.0 404 Not Found');
     echo "404 - Not found";
   } else {
-    list($header, $body) = explode("\r\n\r\n", $response);
+    list($header, $body) = explode("\r\n\r\n", $response, 2);
     $headers = explode("\n",$header);
     foreach($headers as $h){
       header($h);
